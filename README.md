@@ -25,8 +25,8 @@ Finally, there are player functions which takes user inputs and manipulates the 
 
 These functions are finalized in the playGame function. Aside from organizing all of the other functions, it also has a turn counter that displays how many turns have gone by and ends the game as soon as isWin returns 1 or 2, OR if the board fills up without a win (turn counter reaches 42).
 
-# Screenshot of working program
-![Code_Image](./images/Code.png)
+Screenshot of working program
+![Code_Image](https://user-images.githubusercontent.com/90289825/146115882-da9d333c-df35-42b0-b2cf-3f9fc4362922.png)
 
 # Link to Youtube Video
 https://www.youtube.com/watch?v=Jp25GDwvsfw
