@@ -23,4 +23,10 @@ There are also 4 check functions for the 4 types of win conditions: horizontal (
 
 Finally, there are player functions which takes user inputs and manipulates the board. player1 and player2 are nearly identical functions that prompt the corresponding player for a column number. They use the lowestValid function and the column input to change the corresponding index of the board array to O or X for player1 or player 2, respectively. These functions also ensure that the player inputs a valid column number, so an input like 0 or 8 would not work because there are only 7 columns.
 
-These functions are finalized in the playGame function. Aside from organizing all of the other functions, it also has a turn counter that displays how many turns have gone by and ends the game as soon as isWin returns 1 or 2, OR if the board fills up without a win (turn counter reaches 42). 
+These functions are finalized in the playGame function. Aside from organizing all of the other functions, it also has a turn counter that displays how many turns have gone by and ends the game as soon as isWin returns 1 or 2, OR if the board fills up without a win (turn counter reaches 42).
+
+# Screenshot of working program
+![Code_Image](./images/Code.png)
+
+# Link to Youtube Video
+https://www.youtube.com/watch?v=Jp25GDwvsfw
